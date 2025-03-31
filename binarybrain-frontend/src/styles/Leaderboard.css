@@ -1,0 +1,29 @@
+/* leaderboard.css */
+.leaderboard-page {
+    padding: 20px;
+  }
+  
+  .leaderboard-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .leaderboard-page table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leaderboard-page th,
+  .leaderboard-page td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .leaderboard-page th {
+    background-color: #f4f4f4;
+  }
+  
+  .leaderboard-page tr:hover {
+    background-color: #f9f9f9;
+  }

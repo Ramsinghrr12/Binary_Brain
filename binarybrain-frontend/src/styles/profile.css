@@ -1,0 +1,79 @@
+/* src/styles/profile.css */
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.profile-details {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile-details h2 {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-details p {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.stats-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.stats-table td, .stats-table th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.stats-table th {
+    background: #007bff;
+    color: white;
+}
+
+.streak-section {
+    background: linear-gradient(135deg, #ffcccb, #ff6b6b);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    transition: background 0.5s ease-in-out;
+}
+
+.streak-section:hover {
+    background: linear-gradient(135deg, #ff6b6b, #ffcccb);
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 18px;
+}
